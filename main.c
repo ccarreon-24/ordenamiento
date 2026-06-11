@@ -17,12 +17,15 @@ int main(){
 
 	};
 	int tam = sizeof(piratas) / sizeof(Pirate);
+	/*
   int a[] = {5, 2, 1, 3};
   insertionSort(a, 4, sizeof(int), intComparator);
   for(int i = 0; i < 4; i++){
     printf("%d, ", a[i]); 
   }
-  printf("\n");
+  printf("\n");*/
+	int n = getchar() - '0';
+	printf("%d\n", n);
 	insertionSort(piratas, tam, sizeof(Pirate), bountyComparator);
 	for(int i = 0; i < tam; i++){
 		printf("%s %lld %d %s\n", piratas[i].name, piratas[i].bounty, piratas[i].age,
