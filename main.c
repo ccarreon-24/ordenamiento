@@ -18,11 +18,12 @@ int main(){
     printf("%d, ", a[i]); 
   }
   printf("\n");*/
-	int n = getchar() - '0';
-	printf("%d\n", n);
+	//int n = getchar() - '0';
+	int n;
+	scanf("%d", &n);
 	Pirate piratas[n];
 	for(int i = 0; i < n; i++){
-		scanf("%s %lld %d %s\n", piratas[i].name, &piratas[i].bounty, &piratas[i].age,
+		scanf("%s %lld %d %s", piratas[i].name, &piratas[i].bounty, &piratas[i].age,
 					piratas[i].crew);
 	}
 	int tam = sizeof(piratas) / sizeof(Pirate);
