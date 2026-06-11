@@ -7,4 +7,5 @@ typedef struct{
   int age;
   char crew[STRING_SIZE];
 } Pirate;
+int bountyComparator(const void*, const void*);
 #endif
