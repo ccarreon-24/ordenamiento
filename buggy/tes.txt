@@ -1,0 +1,7 @@
+5
+Gold 500 20 8
+Map 80 1 10
+Meat 100 10 5
+Medicine 120 2 10
+Cola 90 5 6
+RATIO
