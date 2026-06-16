@@ -27,7 +27,7 @@ int main(){
 					piratas[i].crew);
 	}
 	int tam = sizeof(piratas) / sizeof(Pirate);
-	insertionSort(piratas, tam, sizeof(Pirate), bountyComparator);
+	insertionSort(piratas, tam, sizeof(Pirate), comparePirates);
 	for(int i = 0; i < tam; i++){
 		printf("%s %lld %d %s\n", piratas[i].name, piratas[i].bounty, piratas[i].age,
 					piratas[i].crew);
